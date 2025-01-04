@@ -1,0 +1,188 @@
+body {
+    background-image: url(./media/Rectangle\ 9.png);
+    background-repeat: no-repeat; /* Ei kordu */
+    background-position: center top;
+    display: flex;
+    flex-direction: column; /* Asetab elemendid üksteise alla */
+    align-items: center;    /* Joondab elemendid horisontaalselt keskele */
+    margin: 0;              /* Eemaldab vaikimisi ääred */
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+     
+
+}
+
+/* Eemaldab kõikide elementide alajoone */
+* {
+    text-decoration: none; /* Eemaldab kõikide elementide alajoone */
+}
+
+/* Kui on linke, siis lisame täiendava kontrolli */
+a {
+    text-decoration: none; /* Eemaldab alajoone linkidelt */
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+    padding: 15px 0;
+    color: white;
+}
+
+.header a {
+    color: white;
+}
+
+.first {
+    display: flex;              /* Flex-konteiner */
+    flex-direction: column;     /* Paigutab elemendid üksteise alla */
+    justify-content: center;    /* Vertikaalne keskendumine */
+    align-items: center;        /* Horisontaalne keskendumine */
+    padding: 50px;              /* Väike vahe iga serva ümber */
+    gap: 10px;                  /* Lisab vahe iga elemendi vahel */
+    color: white;             /* Tekstivärv valge */
+    width: max-content 786px;              /* Laius */
+    height: max-content 295px              /* Kõrgus */
+    
+}
+.first h1 {
+    font-size: 50px;
+
+
+    
+}
+
+.first p {
+    font-size: 24px;
+    color: white;
+    
+    
+    
+}
+
+.first button {
+    
+    text-align: center;
+    color: white;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 12px 40px;
+    gap: 0px;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+.second {
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center;        
+    padding-top: 400px;            
+    gap: 10px;                  
+    color: black;
+               
+                 
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Keskendab veerud */
+    align-items: flex-start; /* Joondab ülemise serva järgi */
+    gap: 20px;
+    width: 100%;
+    padding-top: 80px;
+}
+
+
+/* Iga veerg */
+.column {
+    display: flex;                /* Muudab elemendi paindlikuks */
+    flex-direction: column;       /* Paigutab elemendi lapsed vertikaalselt */
+    justify-content: center;      /* Keskendab elemendid vertikaalselt */
+    align-items: center;          /* Keskendab elemendid horisontaalselt */
+    padding: 10px;                /* Lisab sisemise vahemaa */
+    margin: 10px;                 /* Lisab vahe veergude vahel */
+    width: 300px;                 /* Veeru laius */
+    height: 200px;                /* Veeru kõrgus */
+    color: #000;
+    
+   
+}
+
+.second h2 {
+    margin: 5px 0;                /* Lisab vahed elementide vahel */
+    text-align: center;           /* Joondab teksti keskele */
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.second h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container p {
+   
+    font-size: 16px;
+    line-height: 1.6;                 /* Ridade vaheline kaugus */
+    color:black;
+
+}
+
+.video {
+    
+    width: 90%;            /* Seadistame laius 90% */
+    max-width: 1400px;     /* Piirame video maksimaalse laiusega */
+    margin: 0 auto;        /* Keskendab video */
+    padding: 20px;
+    text-align: center;
+    
+    
+}
+
+.fastest {
+    display: flex;                /* Paigutame sisu horisontaalselt */
+    justify-content: space-between; /* Paigutame elemendid vastassuunas */
+    align-items: center;          /* Keskendab vertikaalselt */
+    padding: 20px;                /* Väike sisemine täitmine */
+    margin-left: 250px;
+    
+}
+
+.text {
+    flex: 1;                      /* Tekstiosa võtab ülejäänud ruumi */
+    max-width: 50%;                /* Tekst ei kasva üle 50% laiuse */
+    text-decoration: none;
+    
+}
+
+.macbook {
+    flex: 1;                      /* Pilt võtab ülejäänud ruumi */
+    display: flex;
+    justify-content: flex-end;    /* Joondab pildi paremale */
+    margin-right: 250px;
+}
+
+.macbook-image {
+    width: 100%;                  /* Pilt täidab oma konteineri laiuse */
+    height: auto;                 /* Pilt säilitab oma proportsioonid */
+}
+
+.f-button {
+    text-align: center;
+    color: white;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 12px 40px;
+    border-radius: 35px;
+    opacity: 1;
+}
