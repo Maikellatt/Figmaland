@@ -36,14 +36,26 @@ a {
 
 .header {
     display: flex;
-    justify-content: center;
-    gap: 21px;
-    padding: 15px 0;
-    color: white;
+    gap: 50px;
+    padding: 70px;
 }
 
 .header a {
     color: white;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.logo {
+    margin-top: -30px;
+    
+   
+}
+
+.social1 {
+    margin-left: 200px;
 }
 
 /* Esimene sektsioon */
@@ -69,9 +81,11 @@ a {
 }
 
 .first p {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     text-align: center;
+    font-weight: 200;
+    line-height: 40px;
     
     
     
@@ -88,6 +102,7 @@ a {
     gap: 0px;
     border-radius: 35px;
     opacity: 1;
+    margin-top: 60px;
 }
 
 /* Teine sektsioon */
@@ -104,14 +119,16 @@ a {
 .second h2 {
     margin: 5px 0;                /* Lisab vahed elementide vahel */
     text-align: center;           /* Joondab teksti keskele */
-    font-size: 50px;
-    font-weight: 400;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 55px;
 }
 
 .second h4{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 200;
     text-align: center;
+    line-height: 40px;
 }
 
 /* Kolmas sekstsioon */
@@ -218,6 +235,7 @@ a {
 .mailbox img {
     width: 677px;
     height: 514px;
+    margin-left: -80px;
 }
 
 .fingertips {
@@ -346,17 +364,23 @@ a {
     align-items: center;
     background-color: #252B42;
     padding-bottom: 90px;
+    width: 100%;
+    height: auto;
+
+
 }
 
 .nine h2 {
     font-size: 48px;
     font-weight: 400;
+    line-height: 55px;
     color: white
 }
 
 .nine h4 {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
+    line-height: 40px;
     color: white;
     text-align: center;
 }
@@ -548,54 +572,111 @@ a {
 /* Kaheteistkümnes sektsioon */
 
 .contact_section {
-    display: flex; /* Muudab konteineri paindlikuks */
-    justify-content: space-between; /* Jätab ruumi elementide vahele */
-    align-items: flex-start; /* Joondab elemendid ülemise joone järgi */
-    gap: 20px; /* Lisab vahe elementide vahele */
-    padding: 20px;
+    display: flex;
+    gap: 70px;
+    margin-left: 100px;
+    margin-right: 80px;
+    
 }
 
 .contact_email {
-    flex: 0.5; /* Määrab esimese osa laiuseks 1 osa */
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Vahe elementide vahel */
+    gap: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 453px;
+    height: 669px;
+    
 }
 
-.contact_email input {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
+.mm {
+    width: 353px;
+    height: 54px;
     background-color: #E8E8E8;
+    border-radius: 39px;
+    margin-left: 40px;
+    
 }
 
-.contact_email button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
+.contact_email1 {
+    width: 353px;
+    height: 193px;
+    background-color: #E8E8E8;
+    margin-left: 40px;
+    
+
+}
+
+.c_address {
+    display: flex;                /* Muudab elemendi paindlikuks */
+    flex-direction: column;       /* Paigutab elemendi lapsed vertikaalselt */
+    justify-content: center;      /* Keskendab elemendid vertikaalselt */
+    align-items: center;
+    gap: 5px;  
+
+}
+
+.c_phone {
+    display: flex;                
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;
+    gap: 5px;  
+}
+
+.c_email {
+    display: flex;                
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;
+    gap: 5px;   
+}
+
+.button12 {
+    text-align: center;
     background-color: #2091F9;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
+    color: white;
+    border: 1px solid transparent;
+    width: 145px;
+    height: 56px;
+    border-radius: 35px;
+    padding-top: 18px;
+    padding-right: 38px;
+    padding-bottom: 18px;
+    padding-left: 38px;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 30px;
+    
+
 }
 
-.contacts_3 {
-    flex: 1; /* Määrab teise osa laiuseks 1 osa */
+
+.contact_email h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
 }
 
 .contacts_contact {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 50px;
+    text-align: center;
 }
 
-.contacts_contact p {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 16px;
+.google_pic {
+    margin-left: 70px;
+    padding-top: 90px;
+    
+    
 }
-
-
+.social2 {
+    padding-top: 60px;
+}
+/* Kolmeteistkümnes sektsioon */
