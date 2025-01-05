@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('./fonts/Graphik-Regular.ttf') format('truetype');
+}
+
+
 body {
     background-image: url(./media/Rectangle\ 9.png);
     background-repeat: no-repeat; /* Ei kordu */
@@ -11,6 +17,8 @@ body {
     height: 100%;
     overflow-x: hidden;
     box-sizing: border-box;
+    font-family: 'Graphik', sans-serif; /* Kasutab Graphik-fonti */
+    
      
 
 }
@@ -38,6 +46,8 @@ a {
     color: white;
 }
 
+/* Esimene sektsioon */
+
 .first {
     display: flex;              /* Flex-konteiner */
     flex-direction: column;     /* Paigutab elemendid üksteise alla */
@@ -52,6 +62,7 @@ a {
 }
 .first h1 {
     font-size: 50px;
+    text-align: center;
 
 
     
@@ -60,6 +71,7 @@ a {
 .first p {
     font-size: 24px;
     color: white;
+    text-align: center;
     
     
     
@@ -78,6 +90,8 @@ a {
     opacity: 1;
 }
 
+/* Teine sektsioon */
+
 .second {
     display: flex;              
     flex-direction: column;     
@@ -85,14 +99,24 @@ a {
     align-items: center;        
     padding-top: 400px;            
     gap: 10px;                  
-    color: black;
-               
-                 
-    
+    color: black; 
+}
+.second h2 {
+    margin: 5px 0;                /* Lisab vahed elementide vahel */
+    text-align: center;           /* Joondab teksti keskele */
+    font-size: 50px;
+    font-weight: 400;
 }
 
+.second h4{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
 
-.container {
+/* Kolmas sekstsioon */
+
+.third {
     display: flex;
     justify-content: center; /* Keskendab veerud */
     align-items: flex-start; /* Joondab ülemise serva järgi */
@@ -113,23 +137,12 @@ a {
     width: 300px;                 /* Veeru laius */
     height: 200px;                /* Veeru kõrgus */
     color: #000;
+    text-align: center;
     
    
 }
 
-.second h2 {
-    margin: 5px 0;                /* Lisab vahed elementide vahel */
-    text-align: center;           /* Joondab teksti keskele */
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.second h4{
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.container p {
+.third p {
    
     font-size: 16px;
     line-height: 1.6;                 /* Ridade vaheline kaugus */
@@ -137,7 +150,9 @@ a {
 
 }
 
-.video {
+/* Neljas sektsioon */
+
+.four {
     
     width: 90%;            /* Seadistame laius 90% */
     max-width: 1400px;     /* Piirame video maksimaalse laiusega */
@@ -148,7 +163,9 @@ a {
     
 }
 
-.fastest {
+/* Viies sektsioon */
+
+.five {
     display: flex;                /* Paigutame sisu horisontaalselt */
     justify-content: space-between; /* Paigutame elemendid vastassuunas */
     align-items: center;          /* Keskendab vertikaalselt */
@@ -161,6 +178,7 @@ a {
     flex: 1;                      /* Tekstiosa võtab ülejäänud ruumi */
     max-width: 50%;                /* Tekst ei kasva üle 50% laiuse */
     text-decoration: none;
+    color: #000;
     
 }
 
@@ -171,7 +189,7 @@ a {
     margin-right: 250px;
 }
 
-.macbook-image {
+.macbook img {
     width: 100%;                  /* Pilt täidab oma konteineri laiuse */
     height: auto;                 /* Pilt säilitab oma proportsioonid */
 }
@@ -179,6 +197,7 @@ a {
 .f-button {
     text-align: center;
     color: white;
+    font-weight: 600;
     background-color: #2091F9;
     border: 2px solid transparent;
     position: center;
@@ -186,3 +205,397 @@ a {
     border-radius: 35px;
     opacity: 1;
 }
+
+/* Kuues sektsioon */
+
+.six {
+    display: flex;
+    padding: 70px;
+    gap: 120px;
+
+}
+
+.mailbox img {
+    width: 677px;
+    height: 514px;
+}
+
+.fingertips {
+    color: #000;
+    padding-top: 90px;     /* Paigutab elemendi konteineri alumisse serva */
+    
+
+}
+
+.fingertips button {
+    text-align: center;
+    color: white;
+    background-color: #2091F9;
+    border: 1px solid transparent;
+    position: center;
+    padding: 10px 30px;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+.fingertips input {
+    
+    color: black;
+    background-color: #E8E8E8;
+    border: 1px solid transparent;
+    position: center;
+    padding: 10px 30px;
+    border-radius: 35px;
+    opacity: 1;
+    
+}
+
+.fingertips h2 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+/* Seitsmes sektsioon*/
+
+.seven {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;    
+    align-items: center; 
+    color: #000;
+    padding: 80px;
+
+}
+
+.seven h2 {
+    font-size: 48px;
+    font-weight: 400;
+    
+}
+
+.seven h4 {
+    font-size: 28px;
+    font-weight: 200;
+    margin-top: 0;
+    text-align: center;
+    
+
+}
+
+.seven img {
+    padding: 50px;
+}
+
+.seven button {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 20px 60px;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+/* Kaheksas sekstsioon */
+
+.eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+
+}
+
+.eight h2 {
+    font-size: 48px;
+    color: #000;
+    font-weight: 400;
+}
+
+.eight h4 {
+    font-size: 28px;
+    color: #000;
+    font-weight: 100;
+    text-align: center;
+
+}
+
+.eight button {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #2091F9;
+    border: 2px solid transparent;
+    position: center;
+    padding: 12px 60px;
+    border-radius: 35px;
+    opacity: 1;
+}
+
+/* Üheksaks sektsioon */
+
+.nine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252B42;
+    padding-bottom: 90px;
+}
+
+.nine h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: white
+}
+
+.nine h4 {
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+
+/* Kümnes sektsioon */
+
+.ten {
+    background-color: #252B42;
+    display: flex;
+    justify-content: center; /* Keskendab veerud */
+    align-items: flex-start; /* Joondab ülemise serva järgi */
+    gap: 20px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.column2 {
+    background-color: white;
+    color: #252B42;
+    border-radius: 10px;
+    text-align: center;
+    width: 335px;
+    height: 607px;
+    border: 1px;
+    padding: 40px;
+    gap: 30px;
+    
+}
+
+.column2 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 5px
+    
+
+}
+
+.column2 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    
+}
+
+.column2 h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    align-items: center;
+
+}
+.column3 {
+    background-color: #2091F9;
+    color: #252B42;
+    border-radius: 10px;
+    text-align: center;
+    width: 335px;
+    height: 693px;
+    padding-top: 83px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 83;
+    gap: 30px;
+    margin-top: -40px;
+    
+   
+}
+
+
+.column3 p   {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 5px;
+    color: white;
+}
+
+.column3 h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    color: white;
+}
+
+.column3 h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: white;
+    align-items: center;
+
+}
+
+
+.price-container {
+    display: flex;
+    align-items: center;  /* Joondab horisontaalselt */
+}
+
+.price-number {
+    font-size: 100px;  /* Väga suur 0 */
+    font-weight: bold;
+    margin-right: 10px;  /* Väike vahe, et $ ja Per Month ei kleepuks külge */
+    padding-left: 60px;
+}
+
+.price-details {
+    display: flex;
+    flex-direction: column;  /* Paigutab $ ja Per Month vertikaalselt */
+    align-items: flex-start;  /* Joondab vasakule */
+}
+
+.currency {
+    font-size: 30px;  /* Väiksem kui number */
+    color: black;
+}
+
+.per-month {
+    font-size: 18px;  /* Väike tekst "Per Month" all */
+    color: black;
+}
+
+.button10 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #2091F9;
+    border: 1px solid transparent;
+    position: center;
+    padding: 20px 80px;
+    border-radius: 35px;
+    
+
+}
+
+.button11 {
+    text-align: center;
+    color: #2091F9;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid transparent;
+    position: center;
+    padding: 20px 80px;
+    border-radius: 35px;
+    
+}
+
+/* Üheteistkümnes sektsioon */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding: 30px;
+    
+
+}
+
+.contact h2 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #000;
+}
+
+.contact h4 {
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 40px;
+    color: #000;
+    margin-top: -10px;
+    
+}
+
+/* Kaheteistkümnes sektsioon */
+
+.contact_section {
+    display: flex; /* Muudab konteineri paindlikuks */
+    justify-content: space-between; /* Jätab ruumi elementide vahele */
+    align-items: flex-start; /* Joondab elemendid ülemise joone järgi */
+    gap: 20px; /* Lisab vahe elementide vahele */
+    padding: 20px;
+}
+
+.contact_email {
+    flex: 0.5; /* Määrab esimese osa laiuseks 1 osa */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Vahe elementide vahel */
+}
+
+.contact_email input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    background-color: #E8E8E8;
+}
+
+.contact_email button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #2091F9;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contacts_3 {
+    flex: 1; /* Määrab teise osa laiuseks 1 osa */
+}
+
+.contacts_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts_contact p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+
