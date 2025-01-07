@@ -680,9 +680,10 @@ a {
 .social2 {
     padding-top: 60px;
 }
-/* Kolmeteistkümnes sektsioon */
+/* FOOTER */
 
-.thirdteen {
+
+footer {
     background-color: #252B42;
     display: flex;
     justify-content: center; 
@@ -695,14 +696,14 @@ a {
     
 }
 
-.thirdteen h3 {
+footer h3 {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     color: white;
 }
 
-.thirdteen p {
+footer p {
     font-size: 15px;
     line-height: 28px;
     font-weight: 400;
@@ -723,4 +724,250 @@ a {
     display: flex; 
     align-items: center; 
     gap: 10px;
+}
+
+/* TELEFONI VAADE */
+
+/* Mobiilivaade */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 30px;
+        margin-left: 90px;
+    }
+
+    .header a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .home {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 10px;
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+/* Esimene sektsioon */
+    .first {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .first h1 {
+        font-size: 36px;
+    }
+
+    .first p {
+        font-size: 18px;
+    }
+
+    .first button {
+        padding: 10px 30px;
+    }
+/* Teine sektsioon */
+    .second {
+        padding-top: 150px;
+        text-align: center;
+    }
+
+    .second h2 {
+        font-size: 36px;
+    }
+
+    .second h4 {
+        font-size: 18px;
+    }
+/* Kolmas sektsioon */
+    .third {
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 30px;
+    }
+
+    .column {
+        width: 100%;
+        height: auto;
+    }
+/* Neljas sektsioon */
+    .four {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .five {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .text {
+        max-width: 100%;
+    }
+
+    .macbook {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .macbook img {
+        width: 80%;
+    }
+
+    .six {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .mailbox img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .fingertips {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .fingertips button,
+    .fingertips input {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+
+    .seven {
+        padding: 50px;
+    }
+
+    .seven h2 {
+        font-size: 36px;
+    }
+
+    .seven h4 {
+        font-size: 18px;
+    }
+
+    .eight {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .eight h2 {
+        font-size: 36px;
+    }
+
+    .eight h4 {
+        font-size: 18px;
+    }
+
+    .nine {
+        padding-bottom: 50px;
+    }
+
+    .nine h2 {
+        font-size: 36px;
+    }
+
+    .nine h4 {
+        font-size: 18px;
+    }
+
+    .ten {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .column2,
+    .column3 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .column2 p,
+    .column3 p {
+        font-size: 14px;
+    }
+
+    .price-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .price-number {
+        font-size: 80px;
+    }
+
+    .price-details {
+        align-items: center;
+    }
+
+    .contact {
+        padding-top: 40px;
+        padding: 20px;
+    }
+
+    .contact h2 {
+        font-size: 36px;
+    }
+
+    .contact h4 {
+        font-size: 18px;
+    }
+
+    .contact_section {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .contact_email {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .contact_email1 {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .button12 {
+        width: 100%;
+        padding: 10px 40px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    footer h3 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .location {
+        margin-left: 0;
+    }
+
+    .mockingbird {
+        gap: 5px;
+    }
+
+    .phone {
+        gap: 5px;
+    }
 }
