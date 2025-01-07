@@ -576,6 +576,7 @@ a {
     gap: 70px;
     margin-left: 100px;
     margin-right: 80px;
+    margin-bottom: 70px;
     
 }
 
@@ -680,3 +681,46 @@ a {
     padding-top: 60px;
 }
 /* Kolmeteistkümnes sektsioon */
+
+.thirdteen {
+    background-color: #252B42;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 70px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    
+}
+
+.thirdteen h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: white;
+}
+
+.thirdteen p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: white;
+}
+
+.location {
+    margin-left: 70px;
+}
+
+.mockingbird {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+
+.phone {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
